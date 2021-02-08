@@ -116,14 +116,23 @@ When you open up the experiment, it shows the latest run and _Pipeline run overv
 After completing pipeline run from Jupyter, it gives this message:
 ![Source Data](/assets/completing_pipeline_run.PNG "completed pipeline")
 
+This is what it looks like when AutoML module completes.
+![Source Data](/assets/2_auto_ml_completed.PNG "active REST pipeline")
+
+
 You can see below that in _Published Pipeline overview_ there's an active REST end point.
 ![Source Data](/assets/published_pipeline_rest_active.PNG "active REST pipeline")
+
+Here we can see that it is active:
+![Source Data](/assets/3_pipeline_endpoint_active.PNG "active REST pipeline alt")
 
 The Run Details Widget shows steps:
 ![Source Data](/assets/run_details_widget.PNG "Run Details steps")
 
 Further, we can see scheduled/completed run here:
-![Source Data](/assets/scheduled_completed_runs.PNG "Scheduled completed runs")
+
+
+![Source Data](/assets/1_experiments_completed.PNG "Scheduled completed runs")
 
 ___
 **Step 8** Documentation
