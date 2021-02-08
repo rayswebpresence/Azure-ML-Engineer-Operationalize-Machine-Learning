@@ -138,13 +138,20 @@ https://youtu.be/WBEaxd9o1ao
 ## Future Work
 There are things we can do for imbalanced datasets that would have to come before the AutoML steps, according to Microsoft's own docs <sup>3</sup>
 1.Resampling to even the class imbalance, either by up-sampling the smaller classes or down-sampling the larger classes. These methods require expertise to process and analyze.
-1. Review performance metrics for imbalanced data, particularly the F1 score. Exploring the precision (where higher = more false positives) and recall (where higher = fewer false negatives)  
+2. Review performance metrics for imbalanced data, particularly the F1 score. Exploring the precision (where higher = more false positives) and recall (where higher = fewer false negatives)  
 
-I would be interested in trying to train a similar classification model that is more balanced and comparing results.
+So these would be some things which would contribute to the success of future work using this data.
+
+Other ideas would be letting the training process exceed an hour.
+
+I would be interested in trying to train a similar classification model that is more balanced and comparing results as well.
 
 I did hard-code cross-validation based on an example online - I would also be interested in running again and letting AutoML choose.
 In my experience, hard-coded happened to work slightly better, but I also tweaked a number of other things. So a systematic comparison of that step would also be interesting.
+
 ## References
 <sup>1</sup> The data relates to direct marketing campaigns of a Portugese banking institution based on phone calls. The output variable is "y," which is a binary feature designating whether a person subscribed to a term deposit.  [Click here for more on the data source.](https://archive.ics.uci.edu/ml/datasets/bank+marketing) 
+
 <sup>2</sup> The data is imbalanced, so we have to change the data's primary metric from `Accuracy`. See [my first project's README](https://github.com/rayswebpresence/nd_first_project)  for more on this issue.
+
 <sup>3</sup> See the following from Azure ML Documentation for more on how to [Manage ML pitfalls](https://docs.microsoft.com/en-us/azure/machine-learning/concept-manage-ml-pitfalls).
