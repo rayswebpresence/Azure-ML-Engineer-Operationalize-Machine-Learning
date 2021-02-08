@@ -7,7 +7,7 @@
 
 ___
 ### Architectural Diagram
-![Source Data](/assets/architectural_diagram.PNG "Steps for Project")
+![Source Data](/assets/architectural_diagram.png "Steps for Project")
 
 ___
 ### Key Steps
