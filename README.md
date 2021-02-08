@@ -1,6 +1,6 @@
 # Operationalizing Machine Learning with Azure ML
 
-> In this project, I train a model based on the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) <sup>1</sup> data using AutoML in Azure ML Studio. The best performing model is determined by AutoML. Next, it is  deployed to an HTTP for public consumption using an Azure Container Instance. It is done using ML studio below and demonstrating using the Python SDK pipeline as demonstrated in videos in **Step 8. Documentation.** 
+> In this project, I train a model based on the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) <sup>1</sup> data using AutoML in Azure ML Studio. The best performing model is determined by AutoML. Next, it is  deployed for public consumption using an Azure Container Instance. We explore this using ML studio below, while the video delves into additionally using using the Python SDK pipeline in **Step 8. Documentation.** 
 
 ## Overview
 
